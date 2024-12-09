@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.content {
+    width: 60%;
+}
+.sidebar {
+    width: 25%;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+.header h1 {
+    margin: 0;
+}
+.phone {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.phone img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.phone h2 {
+    margin-top: 0;
+}
+.phone p {
+    margin: 10px 0;
+}
+.phone a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.phone a:hover {
+    background-color: #0056b3;
+}
